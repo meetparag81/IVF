@@ -35,7 +35,7 @@ public class TestBase
 		try
 		{
 			prop = new Properties();
-			 ip = new FileInputStream("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_config\\config.proerties");
+			 ip = new FileInputStream("C:\\Parag\\Smile Baby IVF\\IVF\\IVFmilan\\src\\main\\java\\com_Smile_config\\config.proerties");
 			try {
 				prop.load(ip);
 			} catch (IOException e) 
