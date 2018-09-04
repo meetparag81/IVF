@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [ApolloIVFTestSuite]">
+  <listeners>
+    <listener class-name="com_Milan_ExtendReport.ExtentReport"/>
+    <listener class-name="com_Milan_Analyzer.MyTransformer"/>
+  </listeners>
+  <test name="ApolloIVFTest(failed)">
+    <classes>
+      <class name="com_Milan_Test.SimulationChartPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="Teardown"/>
+          <include name="SaveSimulationTest"/>
+        </methods>
+      </class> <!-- com_Milan_Test.SimulationChartPageTest -->
+      <class name="com_Milan_Test.CycleListPageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="SimulationDrugTest"/>
+          <include name="Setup"/>
+          <include name="SaveTheCycleTest"/>
+        </methods>
+      </class> <!-- com_Milan_Test.CycleListPageTest -->
+    </classes>
+  </test> <!-- ApolloIVFTest(failed) -->
+</suite> <!-- Failed suite [ApolloIVFTestSuite] -->
