@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
@@ -9,8 +9,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com_Milan_Base.TestBase;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_util.TestUtil;
 
 public class WomenHistoryPage extends TestBase
 {

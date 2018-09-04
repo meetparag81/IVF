@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import java.util.ArrayList;
 
@@ -7,9 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_util.TestUtil;
 
 public class SiemenProcessingPage extends TestBase {
 	@FindBy(xpath = "//a[contains (text(),'Preliminary Details')]")
@@ -36,7 +36,7 @@ public class SiemenProcessingPage extends TestBase {
 	WebElement SiemenPreperationMethod;
 	@FindBy(xpath = "//a[contains (text(), 'Semen Preparation Details')]")WebElement SemenPreparationDetails;
 	@FindBy(xpath="//label[contains (text(),  'Semen Preparation Method')]//following-sibling::div/select")WebElement SemenPreparationMethod; 
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	String msg;
 	private String value;
 	private int val;
@@ -244,7 +244,7 @@ public class SiemenProcessingPage extends TestBase {
 		ArrayList<Object[]> mydata = new ArrayList<Object[]>();
 		try 
 		{
-			reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+			reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 		} catch (Exception e) 
 		{
 			e.printStackTrace();

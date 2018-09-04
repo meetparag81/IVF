@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import static org.testng.Assert.assertFalse;
 
@@ -19,9 +19,9 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_util.TestUtil;
 
 public class WOPUCycyclePage extends TestBase 
 {
@@ -50,7 +50,7 @@ public class WOPUCycyclePage extends TestBase
 	@FindBy (xpath="//input[@name='dtplannedDate']")WebElement Calenderinput;
 	@FindBy(xpath = "//label[text()='LMP']//following-sibling::div//input[@id='Date']")WebElement Datetext;
 	@FindBy(xpath = "//input[@name='txtInstruction']")WebElement Instruction;
-	 Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	 Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	 
 	 String msg;
 	 int count2;

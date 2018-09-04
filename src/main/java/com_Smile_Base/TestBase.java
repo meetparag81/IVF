@@ -1,4 +1,4 @@
-package com_Milan_Base;
+package com_Smile_Base;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -17,11 +17,11 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.testng.annotations.Listeners;
 
-import com_Milan_util.TestNGListners;
-import com_Milan_util.TestUtil;
-import com_Milan_util.WebEventListener;
+import com_Smile_util.TestNGListners;
+import com_Smile_util.TestUtil;
+import com_Smile_util.WebEventListener;
  
-@Listeners(com_Milan_util.TestNGListners.class)
+@Listeners(com_Smile_util.TestNGListners.class)
 public class TestBase 
 {
 	public static WebDriver driver;
@@ -35,7 +35,7 @@ public class TestBase
 		try
 		{
 			prop = new Properties();
-			 ip = new FileInputStream("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_config\\config.proerties");
+			 ip = new FileInputStream("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_config\\config.proerties");
 			try {
 				prop.load(ip);
 			} catch (IOException e) 

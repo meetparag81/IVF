@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -10,8 +10,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com_Milan_Base.TestBase;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_util.TestUtil;
 
 public class FamilyHistoryPage extends TestBase
 {

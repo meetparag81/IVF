@@ -1,18 +1,18 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import org.openqa.selenium.remote.UnreachableBrowserException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.HomePage;
-import com_milan_POM.Loginpage;
-import com_milan_POM.MenHistoryPage;
-import com_milan_POM.SearchPage;
-import com_milan_POM.SiemenProcessingPage;
-import com_milan_POM.WomenHistoryPage;
+import com_Smile_Base.TestBase;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.MenHistoryPage;
+import com_Smile_POM.SearchPage;
+import com_Smile_POM.SiemenProcessingPage;
+import com_Smile_POM.WomenHistoryPage;
 
 public class SiemenProcessingPageTest extends TestBase
 {

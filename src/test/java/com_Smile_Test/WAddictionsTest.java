@@ -1,6 +1,9 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import org.testng.annotations.Test;
+
+import com_Smile_Base.TestBase;
+
 import org.testng.AssertJUnit;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -17,15 +20,15 @@ import org.testng.annotations.Guice;
 import org.testng.annotations.NoInjection;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.HomePage;
-import com_milan_POM.Loginpage;
-import com_milan_POM.WomenHistoryPage;
-import com_milan_POM.AddictionsPage;
-import com_milan_POM.SearchPage;
-import com_milan_POM.WVitalsPage;
+
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_POM.AddictionsPage;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.SearchPage;
+import com_Smile_POM.WVitalsPage;
+import com_Smile_POM.WomenHistoryPage;
 
 public class WAddictionsTest extends TestBase
 {
@@ -43,7 +46,7 @@ public class WAddictionsTest extends TestBase
 	WomenHistoryPage WHP;
 	AddictionsPage Addictions;
 	SearchPage SearchPage;
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	String Expected,Expectednew, Expectedold,Expected1,Actual,Actualnew,Actualold;
 	int count1=0;
 	

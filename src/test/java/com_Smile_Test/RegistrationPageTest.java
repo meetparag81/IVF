@@ -1,9 +1,9 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
+import com_Smile_Base.TestBase;
 
 public class RegistrationPageTest extends TestBase 
 {

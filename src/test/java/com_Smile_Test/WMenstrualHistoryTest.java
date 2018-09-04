@@ -1,6 +1,9 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import org.testng.annotations.Test;
+
+import com_Smile_Base.TestBase;
+
 import org.testng.AssertJUnit;
 import java.util.concurrent.TimeUnit;
 
@@ -10,13 +13,12 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
-import com_Milan_util.TestUtil;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.HomePage;
-import com_milan_POM.Loginpage;
-import com_milan_POM.MenstrualHistoryPage;
-import com_milan_POM.WomenHistoryPage;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.MenstrualHistoryPage;
+import com_Smile_POM.WomenHistoryPage;
+import com_Smile_util.TestUtil;
 
 public class WMenstrualHistoryTest extends TestBase
 {

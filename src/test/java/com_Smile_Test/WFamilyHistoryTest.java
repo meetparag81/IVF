@@ -1,18 +1,18 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.BeforeMethod;
 
-import com_Milan_Base.TestBase;
-import com_Milan_util.TestUtil;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.FamilyHistoryPage;
-import com_milan_POM.HomePage;
-import com_milan_POM.Loginpage;
-import com_milan_POM.SexualHistoryPage;
-import com_milan_POM.SurgicalHistoryPage;
-import com_milan_POM.WomenHistoryPage;
+import com_Smile_Base.TestBase;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.FamilyHistoryPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.SexualHistoryPage;
+import com_Smile_POM.SurgicalHistoryPage;
+import com_Smile_POM.WomenHistoryPage;
+import com_Smile_util.TestUtil;
 
 public class WFamilyHistoryTest extends TestBase
 {

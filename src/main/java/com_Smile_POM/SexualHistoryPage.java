@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import java.util.List;
 import java.util.concurrent.TimeoutException;
@@ -10,9 +10,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
+
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_util.TestUtil;
 
 public class SexualHistoryPage extends TestBase
 {
@@ -40,7 +41,7 @@ public class SexualHistoryPage extends TestBase
 	@FindBy(xpath="//label[text()='Lubrication used']//following::textarea[1]")WebElement Lubricationusedtext;
 	@FindBy(xpath="(//label[text()='Remarks'])[2]//following::textarea[1]")WebElement remarktext;
 	
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	
 	SexualHistoryPage()
 	{

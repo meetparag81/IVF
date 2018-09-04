@@ -1,4 +1,4 @@
-package com_Milan_ExtendReport;
+package com_Smile_ExtendReport;
 
 import java.io.File;
 import java.util.Calendar;

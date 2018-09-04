@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import java.util.List;
 
@@ -15,9 +15,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.TestException;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_util.TestUtil;
 
 public class ObstetricHistoryPage extends TestBase {
 	HomePage HomePage;
@@ -53,7 +53,7 @@ public class ObstetricHistoryPage extends TestBase {
 	int rowcount1;
 	String msg;
 	String thismonth;
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 
 	public ObstetricHistoryPage() 
 	{

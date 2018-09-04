@@ -1,6 +1,9 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import org.testng.annotations.Test;
+
+import com_Smile_Base.TestBase;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.remote.UnreachableBrowserException;
@@ -12,20 +15,19 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
-import com_milan_POM.AllergiesPage;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.HomePage;
-import com_milan_POM.Loginpage;
-import com_milan_POM.MenHistoryPage;
-import com_milan_POM.SearchPage;
-import com_milan_POM.SiemenProcessingPage;
-import com_milan_POM.WInvestigationPage;
-import com_milan_POM.WVitalsPage;
-import com_milan_POM.WomenHistoryPage;
-import com_milan_POM.FemaleDiagnosisPage;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_POM.AllergiesPage;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.FemaleDiagnosisPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.MenHistoryPage;
+import com_Smile_POM.SearchPage;
+import com_Smile_POM.SiemenProcessingPage;
+import com_Smile_POM.WInvestigationPage;
+import com_Smile_POM.WVitalsPage;
+import com_Smile_POM.WomenHistoryPage;
+import com_Smile_util.TestUtil;
 
 public class EMRDashBoardPageTest extends TestBase
 {
@@ -43,7 +45,7 @@ public class EMRDashBoardPageTest extends TestBase
 	String Actual1, Expected1;
 	int count=0;
 	int row=2;
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	
 	EMRDashBoardPageTest()
 	{

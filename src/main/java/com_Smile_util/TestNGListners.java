@@ -1,4 +1,4 @@
-package com_Milan_util;
+package com_Smile_util;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +7,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.internal.TestResult;
-import com_Milan_Base.TestBase;
+
+import com_Smile_Base.TestBase;
 
 
 

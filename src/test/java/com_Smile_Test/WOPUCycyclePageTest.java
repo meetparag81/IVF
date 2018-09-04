@@ -1,4 +1,4 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
@@ -14,14 +14,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_milan_POM.Loginpage;
-import com_milan_POM.HomePage;
-import com_milan_POM.CycleListPage;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.WInvestigationPage;
-import com_milan_POM.WOPUCycyclePage;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_POM.CycleListPage;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.WInvestigationPage;
+import com_Smile_POM.WOPUCycyclePage;
 
 
 public class WOPUCycyclePageTest extends TestBase
@@ -32,7 +32,7 @@ public class WOPUCycyclePageTest extends TestBase
 	WInvestigationPage Investigation;
 	WOPUCycyclePage WOC;
 	CycleListPage CLP;
-	 Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	 Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	 String msg;
 	WOPUCycyclePageTest()
 	{

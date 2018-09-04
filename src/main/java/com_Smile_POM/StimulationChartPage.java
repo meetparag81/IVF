@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -17,9 +17,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_util.TestUtil;
 
 public class StimulationChartPage extends TestBase {
 	private @FindBy(xpath = "//label[@class='checkbox-inline p-t-0']/input") WebElement Finalize;
@@ -46,7 +46,7 @@ public class StimulationChartPage extends TestBase {
 	private @FindBy(xpath="//span[contains (text(),'Finalize stimulation to save OPU.')]")WebElement MessageOPU;
 	private @FindBy(xpath = "//span[@class='icon-screen ng-binding']") WebElement Cycleoverview;
 	Exls_Reader reader = new Exls_Reader(
-			"C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+			"C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	WebDriverWait wait = new WebDriverWait(driver, 30);
 	String msg;
 	String names;

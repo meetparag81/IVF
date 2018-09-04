@@ -1,4 +1,4 @@
-package com_Milan_Analyzer;
+package com_SmileAnalyzer;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 import org.testng.IAnnotationTransformer;
 import org.testng.annotations.ITestAnnotation;
 
-import com_Milan_Base.TestBase;
+import com_Smile_Base.TestBase;
 
 public class MyTransformer extends TestBase implements IAnnotationTransformer
 {

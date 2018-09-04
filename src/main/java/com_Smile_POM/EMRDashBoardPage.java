@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -13,8 +13,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com_Milan_Base.TestBase;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_util.TestUtil;
 
 public class EMRDashBoardPage extends TestBase {
 	private @FindBy(xpath = "//a[@id='menuField_women']") WebElement womenfield;

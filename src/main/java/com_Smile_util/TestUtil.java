@@ -1,4 +1,4 @@
-package com_Milan_util;
+package com_Smile_util;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com_Milan_Base.TestBase;
+import com_Smile_Base.TestBase;
 
 
 public class TestUtil extends TestBase

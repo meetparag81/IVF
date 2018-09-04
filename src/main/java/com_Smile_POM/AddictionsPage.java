@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -15,9 +15,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_util.TestUtil;
 
 public class AddictionsPage extends TestBase {
 	HomePage HomePage;
@@ -26,7 +26,7 @@ public class AddictionsPage extends TestBase {
 	WomenHistoryPage WHP;
 	TestUtil Testutl;
 	static Exls_Reader reader = new Exls_Reader(
-			"C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+			"C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	@FindBy(xpath = "(//input[@type='checkbox'])[6]")WebElement smoke;
 	@FindBy(xpath = "(//input[@type='checkbox'])[7]") WebElement Alkohol;
 	@FindBy(xpath = "(//input[@type='checkbox'])[8]") WebElement Tobaco;
@@ -295,7 +295,7 @@ public class AddictionsPage extends TestBase {
 
 		ArrayList<Object[]> mydata = new ArrayList<Object[]>();
 		try {
-			reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+			reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 		} catch (Exception e) 
 		{
 			e.printStackTrace();

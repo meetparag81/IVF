@@ -1,9 +1,9 @@
-package com_Milan_Analyzer;
+package com_SmileAnalyzer;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-import com_Milan_Base.TestBase;
+import com_Smile_Base.TestBase;
 
 public class RetryAnalyzer implements IRetryAnalyzer
 {

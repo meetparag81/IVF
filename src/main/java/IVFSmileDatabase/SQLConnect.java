@@ -1,4 +1,4 @@
-package IVFMilanDatabase;
+package IVFSmileDatabase;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

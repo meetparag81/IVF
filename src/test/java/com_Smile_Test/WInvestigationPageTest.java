@@ -1,4 +1,4 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import java.util.ArrayList;
 
@@ -8,16 +8,16 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_milan_POM.AddictionsPage;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.HomePage;
-import com_milan_POM.Loginpage;
-import com_milan_POM.SearchPage;
-import com_milan_POM.WInvestigationPage;
-import com_milan_POM.WOPUCycyclePage;
-import com_milan_POM.WomenHistoryPage;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_POM.AddictionsPage;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.SearchPage;
+import com_Smile_POM.WInvestigationPage;
+import com_Smile_POM.WOPUCycyclePage;
+import com_Smile_POM.WomenHistoryPage;
 
 public class WInvestigationPageTest extends TestBase 
 {
@@ -29,7 +29,7 @@ public class WInvestigationPageTest extends TestBase
 	SearchPage SearchPage;
 	WInvestigationPage Investigation;
 	WOPUCycyclePage WOC;
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	int exp, Expected;
 
 	public WInvestigationPageTest() 

@@ -1,12 +1,12 @@
-package com_Milan_util;
+package com_Smile_util;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-import com_Milan_util.TestUtil;
-import com_Milan_Base.TestBase;
+import com_Smile_Base.TestBase;
+import com_Smile_util.TestUtil;
 
 public class WebEventListener extends TestBase implements WebDriverEventListener
 {

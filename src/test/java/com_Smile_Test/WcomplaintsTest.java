@@ -1,4 +1,4 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import java.util.concurrent.TimeUnit;
 
@@ -8,21 +8,20 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
-import com_milan_POM.WComplaintsPage;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.HomePage;
-import com_milan_POM.Loginpage;
-import com_milan_POM.WComplaintsPage;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.WComplaintsPage;
+import com_Smile_util.TestUtil;
 
 public class WcomplaintsTest extends TestBase 
 {	Loginpage Loginpage;
 	HomePage HomePage;
 	EMRDashBoardPage EMRPage;
 	WComplaintsPage WCP;
-	 Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	 Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	WcomplaintsTest()
 	{
 		super();

@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_util.TestUtil;
 
 public class WPastMedicationHistoryPage extends TestBase
 {
@@ -27,7 +27,7 @@ public class WPastMedicationHistoryPage extends TestBase
 	@FindBy(xpath="//th[text()='Status']//following::select[2]")WebElement DrugStatus;
 	@FindBy(xpath="//button[text()=' Save'][@class='btn btn-primary ng-binding']")WebElement Save;
 	WebDriverWait wait = new WebDriverWait(driver, 30);
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	String drug1,Name2,Name;
 	WPastMedicationHistoryPage()
 	{

@@ -1,4 +1,4 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -13,14 +13,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.HomePage;
-import com_milan_POM.Loginpage;
-import com_milan_POM.WComplaintsPage;
-import com_milan_POM.WVitalsPage;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.WComplaintsPage;
+import com_Smile_POM.WVitalsPage;
+import com_Smile_util.TestUtil;
 
 public class WVitalsTest extends TestBase 
 {

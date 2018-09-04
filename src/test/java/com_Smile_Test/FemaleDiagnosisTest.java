@@ -1,4 +1,4 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import static org.testng.Assert.assertTrue;
 
@@ -12,13 +12,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
-import com_milan_POM.Loginpage;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.FemaleDiagnosisPage;
-import com_milan_POM.HomePage;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.FemaleDiagnosisPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_util.TestUtil;
 
 public class FemaleDiagnosisTest extends TestBase
 {
@@ -26,7 +26,7 @@ public class FemaleDiagnosisTest extends TestBase
 	HomePage HomePage;
 	EMRDashBoardPage EMRPage;
 	FemaleDiagnosisPage FDP;
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	
 	
 	

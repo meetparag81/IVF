@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 import java.util.ArrayList;
 
@@ -8,9 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com_Milan_Base.TestBase;
-import com_Milan_Excelutility.Exls_Reader;
-import com_Milan_util.TestUtil;
+import com_Smile_Base.TestBase;
+import com_Smile_Excelutility.Exls_Reader;
+import com_Smile_util.TestUtil;
 
 public class WVitalsPage extends TestBase
 {
@@ -24,7 +24,7 @@ private @FindBy(xpath="(//input[@type='text'])[8]")WebElement Temprature;
 private @FindBy(xpath="//button[@class='btn btn-primary ng-binding']")WebElement Save;
 private @FindBy(xpath="//div[@id='toasty']/comment()") WebElement FlashMessage;
 private@FindBy(xpath="//label[text()='BMI']")WebElement BMITitle;
-Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 double rowdata2,rowdata1;
 	 WVitalsPage()
 	{
@@ -174,7 +174,7 @@ double rowdata2,rowdata1;
 		ArrayList<Object[]> mydata = new ArrayList<Object[]>();
 		try
 		{
-		reader= new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Milan_TestData\\Milandata.xlsx");
+		reader= new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 		}
 		catch(Exception e)
 		{

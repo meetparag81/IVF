@@ -1,27 +1,29 @@
-package com_Milan_Test;
+package com_Smile_Test;
 
 import org.testng.annotations.Test;
+
+import com_Smile_Base.TestBase;
+
 import org.openqa.selenium.remote.UnreachableBrowserException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
-import com_milan_POM.AddictionsPage;
-import com_milan_POM.AllergiesPage;
-import com_milan_POM.EMRDashBoardPage;
-import com_milan_POM.FamilyHistoryPage;
-import com_milan_POM.HomePage;
-import com_milan_POM.Loginpage;
-import com_milan_POM.ObstetricHistoryPage;
-import com_milan_POM.SexualHistoryPage;
-import com_milan_POM.SurgicalHistoryPage;
-import com_milan_POM.VaccinationPage;
-import com_milan_POM.WomenHistoryPage;
-import com_milan_POM.WPastMedicationHistoryPage;
-import com_milan_POM.previousTreatmentHistoryPage;
-import com_milan_POM.socialHistoryPage;
-import com_milan_POM.SearchPage;
+import com_Smile_POM.AddictionsPage;
+import com_Smile_POM.AllergiesPage;
+import com_Smile_POM.EMRDashBoardPage;
+import com_Smile_POM.FamilyHistoryPage;
+import com_Smile_POM.HomePage;
+import com_Smile_POM.Loginpage;
+import com_Smile_POM.ObstetricHistoryPage;
+import com_Smile_POM.SearchPage;
+import com_Smile_POM.SexualHistoryPage;
+import com_Smile_POM.SurgicalHistoryPage;
+import com_Smile_POM.VaccinationPage;
+import com_Smile_POM.WPastMedicationHistoryPage;
+import com_Smile_POM.WomenHistoryPage;
+import com_Smile_POM.previousTreatmentHistoryPage;
+import com_Smile_POM.socialHistoryPage;
 
 public class WomenHistoryPageTest extends TestBase
 {

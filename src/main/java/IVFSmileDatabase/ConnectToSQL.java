@@ -1,4 +1,4 @@
-package IVFMilanDatabase;
+package IVFSmileDatabase;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 import org.testng.annotations.Test;
 
-import com_Milan_Base.TestBase;
+import com_Smile_Base.TestBase;
 
 public class ConnectToSQL extends TestBase
 {

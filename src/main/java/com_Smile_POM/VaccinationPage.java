@@ -1,4 +1,4 @@
-package com_milan_POM;
+package com_Smile_POM;
 
 public class VaccinationPage {
 
