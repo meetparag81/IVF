@@ -29,7 +29,7 @@ public class SimulationChartPageTest extends TestBase
 	CycleListPage CLP;
 	CycleOverviewPage COP;
 	StimulationChartPage SCP;
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Smile Baby IVF\\IVF\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	
 	@BeforeMethod
 	public  void Setup()

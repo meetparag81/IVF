@@ -45,7 +45,7 @@ public class EMRDashBoardPageTest extends TestBase
 	String Actual1, Expected1;
 	int count=0;
 	int row=2;
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Smile Baby IVF\\IVF\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	
 	EMRDashBoardPageTest()
 	{

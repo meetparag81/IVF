@@ -29,7 +29,7 @@ public class WInvestigationPageTest extends TestBase
 	SearchPage SearchPage;
 	WInvestigationPage Investigation;
 	WOPUCycyclePage WOC;
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Smile Baby IVF\\IVF\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	int exp, Expected;
 
 	public WInvestigationPageTest() 

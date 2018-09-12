@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ApolloIVFTestSuite" parallel="none" thread-count="1">
-<listeners>
-		<listener class-name="com_Milan_ExtendReport.ExtentReport" />
-		<listener class-name="com_Milan_Analyzer.MyTransformer" />
-	</listeners>
-  <test name="ApolloIVFTest">
+<suite name="SmileIVF_Suite">
+  <test thread-count="5" name="SmileIVF_Test">
     <classes>
-    <class name="com_Milan_Test.LoginPageTest"/>
-    <class name="com_Milan_Test.HomePageTest"/>
-	 <class name="com_Milan_Test.SearchPageTest"/>
-	 <class name="com_Milan_Test.EMRDashBoardPageTest"/>
-	 <class name="com_Milan_Test.WomenHistoryPageTest"/>
-	 <class name="com_Milan_Test.WMenstrualHistoryTest"/>
-	 <class name="com_Milan_Test.WSexsualHistoryTest"/>
-     <class name="com_Milan_Test.WPastMedicationHistoryTest"/>
-      <class name="com_Milan_Test.WcomplaintsTest"/>
-      <class name="com_Milan_Test.WAllergiesTest"/>
-      <class name="com_Milan_Test.FemaleDiagnosisTest"/>
-      <class name="com_Milan_Test.WObstetricHistoryPageTest"/>
-      <class name="com_Milan_Test.WVitalsTest"/>
-      <class name="com_Milan_Test.WAddictionsTest"/>
-      <class name="com_Milan_Test.WInvestigationPageTest"/>
-      <class name="com_Milan_Test.WOPUCycyclePageTest"/>
-      <class name="com_Milan_Test.CycleListPageTest"/>
-      <class name="com_Milan_Test.CycleOverviewPageTest"/>
-      <class name="com_Milan_Test.SimulationChartPageTest"/>
-    
-	      
+      <class name="com_Smile_Test.WOPUCycyclePageTest"/>
+      <class name="com_Smile_Test.SiemenProcessingPageTest"/>
+      <class name="com_Smile_Test.EMRDashBoardPageTest"/>
+      <class name="com_Smile_Test.RegistrationPageTest"/>
+      <class name="com_Smile_Test.WPastMedicationHistoryTest"/>
+      <class name="com_Smile_Test.CycleListPageTest"/>
+      <class name="com_Smile_Test.SearchPageTest"/>
+      <class name="com_Smile_Test.WObstetricHistoryPageTest"/>
+      <class name="com_Smile_Test.WAllergiesTest"/>
+      <class name="com_Smile_Test.WAddictionsTest"/>
+      <class name="com_Smile_Test.SimulationChartPageTest"/>
+      <class name="com_Smile_POM.SiemenProcessingPage"/>
+      <class name="com_Smile_Test.LoginPageTest"/>
+      <class name="com_Smile_Test.WMenstrualHistoryTest"/>
+      <class name="com_Smile_Test.FemaleDiagnosisTest"/>
+      <class name="com_Smile_Test.WomenHistoryPageTest"/>
+      <class name="com_Smile_Test.WSexsualHistoryTest"/>
+      <class name="com_Smile_Test.HomePageTest"/>
+      <class name="IVFSmileDatabase.ConnectToSQL"/>
+      <class name="com_Smile_Test.CycleOverviewPageTest"/>
+      <class name="com_Smile_Test.WVitalsTest"/>
+      <class name="com_Smile_Test.WcomplaintsTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> <!-- SmileIVF_Test -->
+</suite> <!-- SmileIVF_Suite -->

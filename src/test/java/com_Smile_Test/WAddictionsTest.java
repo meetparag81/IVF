@@ -46,7 +46,7 @@ public class WAddictionsTest extends TestBase
 	WomenHistoryPage WHP;
 	AddictionsPage Addictions;
 	SearchPage SearchPage;
-	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Git\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
+	Exls_Reader reader = new Exls_Reader("C:\\Parag\\Smile Baby IVF\\IVF\\IVFmilan\\src\\main\\java\\com_Smile_TestData\\Milandata.xlsx");
 	String Expected,Expectednew, Expectedold,Expected1,Actual,Actualnew,Actualold;
 	int count1=0;
 	
