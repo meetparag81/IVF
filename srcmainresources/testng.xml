@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com_Smile_Test.WOPUCycyclePageTest"/>
+      <class name="com_Smile_Test.SiemenProcessingPageTest"/>
+      <class name="com_Smile_Test.EMRDashBoardPageTest"/>
+      <class name="com_Smile_Test.RegistrationPageTest"/>
+      <class name="com_Smile_Test.WPastMedicationHistoryTest"/>
+      <class name="com_Smile_Test.CycleListPageTest"/>
+      <class name="com_Smile_Test.SearchPageTest"/>
+      <class name="com_Smile_Test.WObstetricHistoryPageTest"/>
+      <class name="com_Smile_Test.WAllergiesTest"/>
+      <class name="com_Smile_Test.WAddictionsTest"/>
+      <class name="com_Smile_Test.SimulationChartPageTest"/>
+      <class name="com_Smile_POM.SiemenProcessingPage"/>
+      <class name="com_Smile_Test.LoginPageTest"/>
+      <class name="com_Smile_Test.WMenstrualHistoryTest"/>
+      <class name="com_Smile_Test.FemaleDiagnosisTest"/>
+      <class name="com_Smile_Test.WomenHistoryPageTest"/>
+      <class name="com_Smile_Test.WSexsualHistoryTest"/>
+      <class name="com_Smile_Test.HomePageTest"/>
+      <class name="IVFSmileDatabase.ConnectToSQL"/>
+      <class name="com_Smile_Test.CycleOverviewPageTest"/>
+      <class name="com_Smile_Test.WVitalsTest"/>
+      <class name="com_Smile_Test.WcomplaintsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
