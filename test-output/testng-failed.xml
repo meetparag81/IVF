@@ -3,14 +3,28 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com_Smile_Test.LoginPageTest">
+      <class name="com_Smile_Test.WAddictionsTest">
         <methods>
-          <include name="Seup"/>
           <include name="Teardown"/>
-          <include name="InvalidPasswordTest"/>
-          <include name="LoginTest"/>
+          <include name="SinceWhenEnableconditionSinceWhenMonthAlkoholTest"/>
+          <include name="CurrentStatusEnableConditionAlkoholTest"/>
+          <include name="SinceWhenEnableconditionSinceWhenCaffeineAddictionTest"/>
+          <include name="Setup"/>
+          <include name="SenceWhenEnableconditionSinceWhenYearTobacoTest"/>
+          <include name="SinceWhenEnableconditionSinceWhenMonthForCaffeineAddictionTest"/>
+          <include name="CurrentStatusEnableConditionTobacoTest"/>
+          <include name="saveAdictionsTest"/>
+          <include name="CurrentStatusEnableConditionAdictionTest"/>
+          <include name="SinceWhenEnableconditionSinceWhenMonthSmokeTest"/>
+          <include name="SinceWhenEnableconditionSinceWhenMonthForDrugAdictionTest"/>
+          <include name="CurrentStatusEnableConditionCaffeineAddictionTest"/>
+          <include name="SenceWhenEnableconditionSinceWhenDrugAddictionYearTest"/>
+          <include name="SenceWhenEnableconditionSinceWhenYearAlkoholTest"/>
+          <include name="SenceWhenEnableconditionSinceWhenYearSmokeTest"/>
+          <include name="CurrentStatusEnableConditionSmokeTest"/>
+          <include name="SinceWhenEnableconditionSinceWhenMonthTobocoTest"/>
         </methods>
-      </class> <!-- com_Smile_Test.LoginPageTest -->
+      </class> <!-- com_Smile_Test.WAddictionsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

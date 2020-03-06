@@ -1,52 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+<testng-results skipped="16" failed="0" ignored="1" total="17" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="183209" started-at="2018-09-10T05:33:44Z" finished-at="2018-09-10T05:36:47Z">
+  <suite name="Default suite" duration-ms="338" started-at="2019-07-01T12:18:54Z" finished-at="2019-07-01T12:18:54Z">
     <groups>
+      <group name="functional">
+        <method signature="WAddictionsTest.saveAdictionsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:16, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="saveAdictionsTest" class="com_Smile_Test.WAddictionsTest"/>
+      </group> <!-- functional -->
+      <group name="smoketest">
+        <method signature="WAddictionsTest.CurrentStatusEnableConditionAdictionTest()[pri:4, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionAdictionTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.CurrentStatusEnableConditionAlkoholTest()[pri:2, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionAlkoholTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.CurrentStatusEnableConditionCaffeineAddictionTest()[pri:5, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionCaffeineAddictionTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.CurrentStatusEnableConditionSmokeTest()[pri:1, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionSmokeTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.CurrentStatusEnableConditionTobacoTest()[pri:3, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionTobacoTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SenceWhenEnableconditionSinceWhenDrugAddictionYearTest()[pri:9, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SenceWhenEnableconditionSinceWhenDrugAddictionYearTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SenceWhenEnableconditionSinceWhenYearAlkoholTest()[pri:7, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SenceWhenEnableconditionSinceWhenYearAlkoholTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SenceWhenEnableconditionSinceWhenYearSmokeTest()[pri:6, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SenceWhenEnableconditionSinceWhenYearSmokeTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SenceWhenEnableconditionSinceWhenYearTobacoTest()[pri:8, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SenceWhenEnableconditionSinceWhenYearTobacoTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SinceWhenEnableconditionSinceWhenCaffeineAddictionTest()[pri:10, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenCaffeineAddictionTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SinceWhenEnableconditionSinceWhenMonthAlkoholTest()[pri:12, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthAlkoholTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SinceWhenEnableconditionSinceWhenMonthForCaffeineAddictionTest()[pri:15, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthForCaffeineAddictionTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SinceWhenEnableconditionSinceWhenMonthForDrugAdictionTest()[pri:14, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthForDrugAdictionTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SinceWhenEnableconditionSinceWhenMonthSmokeTest()[pri:11, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthSmokeTest" class="com_Smile_Test.WAddictionsTest"/>
+        <method signature="WAddictionsTest.SinceWhenEnableconditionSinceWhenMonthTobocoTest()[pri:13, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthTobocoTest" class="com_Smile_Test.WAddictionsTest"/>
+      </group> <!-- smoketest -->
     </groups>
-    <test name="Default test" duration-ms="183209" started-at="2018-09-10T05:33:44Z" finished-at="2018-09-10T05:36:47Z">
-      <class name="com_Smile_Test.LoginPageTest">
-        <test-method status="PASS" signature="Seup()[pri:0, instance:com_Smile_Test.LoginPageTest@3972a855]" name="Seup" is-config="true" duration-ms="18224" started-at="2018-09-10T11:03:44Z" finished-at="2018-09-10T11:04:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Seup -->
-        <test-method status="PASS" signature="InvalidusernameTest()[pri:1, instance:com_Smile_Test.LoginPageTest@3972a855]" name="InvalidusernameTest" duration-ms="3339" started-at="2018-09-10T11:04:02Z" finished-at="2018-09-10T11:04:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidusernameTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com_Smile_Test.LoginPageTest@3972a855]" name="Teardown" is-config="true" duration-ms="673" started-at="2018-09-10T11:04:05Z" finished-at="2018-09-10T11:04:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Seup()[pri:0, instance:com_Smile_Test.LoginPageTest@3972a855]" name="Seup" is-config="true" duration-ms="6257" started-at="2018-09-10T11:04:06Z" finished-at="2018-09-10T11:04:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Seup -->
-        <test-method status="FAIL" signature="InvalidPasswordTest()[pri:2, instance:com_Smile_Test.LoginPageTest@3972a855]" name="InvalidPasswordTest" duration-ms="63559" started-at="2018-09-10T11:04:12Z" finished-at="2018-09-10T11:05:16Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: Smile Baby IVF Center
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'IVF111', ip: '192.168.1.56', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: driver.version: unknown]]>
-            </message>
+    <test name="Default test" duration-ms="338" started-at="2019-07-01T12:18:54Z" finished-at="2019-07-01T12:18:54Z">
+      <class name="com_Smile_Test.WAddictionsTest">
+        <test-method status="FAIL" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="21" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Smile Baby IVF Center
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'IVF111', ip: '192.168.1.56', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
-	at com_Smile_POM.Loginpage.Invaliduserpassword(Loginpage.java:115)
-	at com_Smile_Test.LoginPageTest.InvalidPasswordTest(LoginPageTest.java:60)
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -63,59 +57,29 @@ Driver info: driver.version: unknown
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InvalidPasswordTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com_Smile_Test.LoginPageTest@3972a855]" name="Teardown" is-config="true" duration-ms="11175" started-at="2018-09-10T11:05:16Z" finished-at="2018-09-10T11:05:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Seup()[pri:0, instance:com_Smile_Test.LoginPageTest@3972a855]" name="Seup" is-config="true" duration-ms="7155" started-at="2018-09-10T11:05:28Z" finished-at="2018-09-10T11:05:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Seup -->
-        <test-method status="PASS" signature="ButtonEnableConditionTest()[pri:3, instance:com_Smile_Test.LoginPageTest@3972a855]" name="ButtonEnableConditionTest" duration-ms="369" started-at="2018-09-10T11:05:35Z" finished-at="2018-09-10T11:05:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ButtonEnableConditionTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com_Smile_Test.LoginPageTest@3972a855]" name="Teardown" is-config="true" duration-ms="763" started-at="2018-09-10T11:05:35Z" finished-at="2018-09-10T11:05:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="Seup()[pri:0, instance:com_Smile_Test.LoginPageTest@3972a855]" name="Seup" is-config="true" duration-ms="6367" started-at="2018-09-10T11:05:36Z" finished-at="2018-09-10T11:05:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Seup -->
-        <test-method status="FAIL" signature="LoginTest()[pri:4, instance:com_Smile_Test.LoginPageTest@3972a855]" name="LoginTest" duration-ms="63077" started-at="2018-09-10T11:05:42Z" finished-at="2018-09-10T11:06:45Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: Smile Baby IVF Center
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'IVF111', ip: '192.168.1.56', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: driver.version: unknown]]>
-            </message>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="CurrentStatusEnableConditionSmokeTest()[pri:1, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionSmokeTest" duration-ms="2" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Smile Baby IVF Center
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'IVF111', ip: '192.168.1.56', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
-	at com_Smile_POM.Loginpage.Verifylogin(Loginpage.java:60)
-	at com_Smile_Test.LoginPageTest.LoginTest(LoginPageTest.java:78)
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -132,20 +96,666 @@ Driver info: driver.version: unknown
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com_Smile_Test.LoginPageTest@3972a855]" name="Teardown" is-config="true" duration-ms="687" started-at="2018-09-10T11:06:46Z" finished-at="2018-09-10T11:06:47Z">
+        </test-method> <!-- CurrentStatusEnableConditionSmokeTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Teardown -->
-      </class> <!-- com_Smile_Test.LoginPageTest -->
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="CurrentStatusEnableConditionAlkoholTest()[pri:2, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionAlkoholTest" duration-ms="1" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CurrentStatusEnableConditionAlkoholTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="CurrentStatusEnableConditionTobacoTest()[pri:3, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionTobacoTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CurrentStatusEnableConditionTobacoTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="CurrentStatusEnableConditionAdictionTest()[pri:4, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionAdictionTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CurrentStatusEnableConditionAdictionTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="CurrentStatusEnableConditionCaffeineAddictionTest()[pri:5, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="CurrentStatusEnableConditionCaffeineAddictionTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CurrentStatusEnableConditionCaffeineAddictionTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SenceWhenEnableconditionSinceWhenYearSmokeTest()[pri:6, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SenceWhenEnableconditionSinceWhenYearSmokeTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SenceWhenEnableconditionSinceWhenYearSmokeTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SenceWhenEnableconditionSinceWhenYearAlkoholTest()[pri:7, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SenceWhenEnableconditionSinceWhenYearAlkoholTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SenceWhenEnableconditionSinceWhenYearAlkoholTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SenceWhenEnableconditionSinceWhenYearTobacoTest()[pri:8, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SenceWhenEnableconditionSinceWhenYearTobacoTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SenceWhenEnableconditionSinceWhenYearTobacoTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SenceWhenEnableconditionSinceWhenDrugAddictionYearTest()[pri:9, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SenceWhenEnableconditionSinceWhenDrugAddictionYearTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SenceWhenEnableconditionSinceWhenDrugAddictionYearTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SinceWhenEnableconditionSinceWhenCaffeineAddictionTest()[pri:10, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenCaffeineAddictionTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinceWhenEnableconditionSinceWhenCaffeineAddictionTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SinceWhenEnableconditionSinceWhenMonthSmokeTest()[pri:11, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthSmokeTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinceWhenEnableconditionSinceWhenMonthSmokeTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SinceWhenEnableconditionSinceWhenMonthAlkoholTest()[pri:12, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthAlkoholTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinceWhenEnableconditionSinceWhenMonthAlkoholTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SinceWhenEnableconditionSinceWhenMonthTobocoTest()[pri:13, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthTobocoTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinceWhenEnableconditionSinceWhenMonthTobocoTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SinceWhenEnableconditionSinceWhenMonthForDrugAdictionTest()[pri:14, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthForDrugAdictionTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinceWhenEnableconditionSinceWhenMonthForDrugAdictionTest -->
+        <test-method status="SKIP" signature="Setup()[pri:0, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="Setup" is-config="true" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="SKIP" signature="SinceWhenEnableconditionSinceWhenMonthForCaffeineAddictionTest()[pri:15, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="SinceWhenEnableconditionSinceWhenMonthForCaffeineAddictionTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com_Smile_Base.TestBase.initalization(TestBase.java:59)
+	at com_Smile_Test.WAddictionsTest.Setup(WAddictionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinceWhenEnableconditionSinceWhenMonthForCaffeineAddictionTest -->
+        <test-method status="SKIP" signature="saveAdictionsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:16, instance:com_Smile_Test.WAddictionsTest@39fb3ab6]" name="saveAdictionsTest" duration-ms="0" started-at="2019-07-01T17:48:54Z" data-provider="getTestData" finished-at="2019-07-01T17:48:54Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: java.lang.NullPointerException
+	at com_Smile_Excelutility.Exls_Reader.getRowCount(Exls_Reader.java:52)
+	at com_Smile_POM.AddictionsPage.getdatafromExcel(AddictionsPage.java:304)
+	at com_Smile_Test.WAddictionsTest.getTestData(WAddictionsTest.java:281)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+	... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveAdictionsTest -->
+      </class> <!-- com_Smile_Test.WAddictionsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

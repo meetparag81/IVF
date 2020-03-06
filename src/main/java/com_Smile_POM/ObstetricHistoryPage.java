@@ -140,7 +140,7 @@ public class ObstetricHistoryPage extends TestBase {
 			TestUtil.ActionForMovetoElement(FlashMessage);
 			msg= FlashMessage.getText();
 			msg = "Record saved successfully!";
-			
+			reader.getCellData("", 0, 1);
 		}
 		
 		
@@ -195,6 +195,7 @@ public class ObstetricHistoryPage extends TestBase {
 					catch(TimeoutException e)
 					{
 						System.out.println("Timeoutexception seen");
+						
 					}
 					Select OutcomeL = new Select(outcomeLB);
 					OutcomeL.selectByVisibleText("Livebirth");
